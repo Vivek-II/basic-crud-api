@@ -30,15 +30,15 @@ This is a simple REST API built using Node.js and Express to perform CRUD operat
 
 
 
-&nbsp;  npm install
+   npm install
 
-&nbsp;  node index.js
+   node index.js
 
 
 
 3\. Server will start at:
 
-&nbsp;  http://localhost:3000
+   http://localhost:3000
 
 
 
@@ -48,17 +48,17 @@ This is a simple REST API built using Node.js and Express to perform CRUD operat
 
 \### 1. Create User
 
-POST /users  
+POST /users
 
 Body (JSON):
 
 {
 
-&nbsp; "id": 1,
+  "id": 1,
 
-&nbsp; "name": "Vivek",
+  "name": "Vivek",
 
-&nbsp; "age": 22
+  "age": 22
 
 }
 
@@ -78,15 +78,15 @@ GET /users/1
 
 \### 4. Update User
 
-PUT /users/1  
+PUT /users/1
 
 Body:
 
 {
 
-&nbsp; "name": "Vivek Kumar",
+  "name": "Vivek Kumar",
 
-&nbsp; "age": 23
+  "age": 23
 
 }
 
@@ -101,8 +101,4 @@ DELETE /users/1
 \## Testing
 
 API was tested using browser DevTools and Fetch API.
-
-
-
-
 
